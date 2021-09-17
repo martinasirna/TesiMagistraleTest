@@ -1,0 +1,9 @@
+﻿  pch.cpp
+  App.cpp
+  Main.cpp
+  UnityGenerated.cpp
+C:\Users\CIM40\Desktop\web+pun\testbuild\web+pun\App.cpp(26,1): warning C4973: 'Windows::UI::ViewManagement::IApplicationView2::SuppressSystemOverlays::set': contrassegnato come deprecato
+C:\Users\CIM40\Desktop\web+pun\testbuild\web+pun\App.cpp(26,1): message : Messaggio: 'Use the TryEnterFullScreen method and IsFullScreenMode property instead of SuppressSystemOverlays. For more info, see MSDN.'
+  Generazione codice in corso...
+  Generazione codice terminata
+  web+pun.vcxproj -> C:\Users\CIM40\Desktop\web+pun\testbuild\build\bin\ARM64\Master\web+pun.exe

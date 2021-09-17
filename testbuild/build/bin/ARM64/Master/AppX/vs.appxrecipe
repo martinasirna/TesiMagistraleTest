@@ -1,0 +1,318 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>DESKTOP-B20DBJE</Machine>
+    <WindowsUser>CIM40</WindowsUser>
+    <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
+    <TargetOsVersion>10.0</TargetOsVersion>
+    <TargetOsDescription>Windows 10.0</TargetOsDescription>
+    <SolutionConfiguration>Master|ARM64</SolutionConfiguration>
+    <PackageArchitecture>arm64</PackageArchitecture>
+    <PackageIdentityName>fc8bea3d-c25c-4935-b84e-81bf018f2877</PackageIdentityName>
+    <PackageIdentityPublisher>CN=DefaultCompany</PackageIdentityPublisher>
+    <IntermediateOutputPath>C:\Users\CIM40\Desktop\web+pun\testbuild\build\obj\web+pun\ARM64\Master\</IntermediateOutputPath>
+    <RemoteDeploymentType>CopyToDevice</RemoteDeploymentType>
+    <PackageRegistrationPath>
+    </PackageRegistrationPath>
+    <RemoveNonLayoutFiles>false</RemoveNonLayoutFiles>
+    <DeployOptionalPackages>false</DeployOptionalPackages>
+    <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
+    <LayoutDir>C:\Users\CIM40\Desktop\web+pun\testbuild\build\bin\ARM64\Master\AppX</LayoutDir>
+    <RegisteredManifestChecksum>70DFFA645FDEB99B3F1A5487F616A51397BDC0376B83E0FD7ECB2F371B012C07</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>webpun_1.0.0.0_arm64__pzq3xp76mxafg</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>webpun_pzq3xp76mxafg!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>webpun</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=DefaultCompany</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\CIM40\Desktop\web+pun\testbuild\build\bin\ARM64\Master\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-05-19T14:49:01.451</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\CIM40\Desktop\web+pun\testbuild\build\bin\ARM64\Master\web+pun.exe">
+      <PackagePath>web+pun.exe</PackagePath>
+      <Modified>2021-05-19T14:49:00.004</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files\Unity\Hub\Editor\2019.4.12f1\Editor\Data\PlaybackEngines\MetroSupport\Players\UAP\il2cpp\ARM64\Master\UnityPlayer.winmd">
+      <PackagePath>UnityPlayer.winmd</PackagePath>
+      <Modified>2020-09-30T04:44:58.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files\Unity\Hub\Editor\2019.4.12f1\Editor\Data\PlaybackEngines\MetroSupport\Players\UAP\il2cpp\ARM64\Master\UnityPlayer.dll">
+      <PackagePath>UnityPlayer.dll</PackagePath>
+      <Modified>2020-09-30T04:44:54.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\CIM40\Desktop\web+pun\testbuild\build\bin\ARM64\Master\webpun.winmd">
+      <PackagePath>webpun.winmd</PackagePath>
+      <Modified>2021-05-19T14:48:59.923</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\CIM40\Desktop\web+pun\testbuild\web+pun\Assets\SplashScreen.scale-200.png">
+      <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-09-30T03:52:40.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\CIM40\Desktop\web+pun\testbuild\web+pun\Assets\Square150x150Logo.scale-200.png">
+      <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-09-30T03:52:40.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\CIM40\Desktop\web+pun\testbuild\web+pun\Assets\Square44x44Logo.scale-200.png">
+      <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-09-30T03:52:40.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\CIM40\Desktop\web+pun\testbuild\web+pun\Assets\Square44x44Logo.targetsize-24.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-24.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-09-30T03:52:40.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\CIM40\Desktop\web+pun\testbuild\web+pun\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-09-30T03:52:40.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\CIM40\Desktop\web+pun\testbuild\web+pun\Assets\StoreLogo.png">
+      <PackagePath>Assets\StoreLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-09-30T03:52:40.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\CIM40\Desktop\web+pun\testbuild\web+pun\Assets\Wide310x150Logo.scale-200.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-09-30T03:52:40.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\CIM40\Desktop\web+pun\testbuild\web+pun\StoreManifest.xml">
+      <PackagePath>StoreManifest.xml</PackagePath>
+      <Modified>2021-05-19T14:43:25.848</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\CIM40\Desktop\web+pun\testbuild\web+pun\Data\il2cpp_data\etc\mono\mconfig\config.xml">
+      <PackagePath>Data\il2cpp_data\etc\mono\mconfig\config.xml</PackagePath>
+      <Modified>2020-09-30T03:56:56.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\CIM40\Desktop\web+pun\testbuild\web+pun\Data\boot.config">
+      <PackagePath>Data\boot.config</PackagePath>
+      <Modified>2021-05-19T14:43:20.568</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\CIM40\Desktop\web+pun\testbuild\web+pun\Data\il2cpp_data\etc\mono\2.0\machine.config">
+      <PackagePath>Data\il2cpp_data\etc\mono\2.0\machine.config</PackagePath>
+      <Modified>2020-09-30T03:56:56.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\CIM40\Desktop\web+pun\testbuild\web+pun\Data\il2cpp_data\etc\mono\2.0\web.config">
+      <PackagePath>Data\il2cpp_data\etc\mono\2.0\web.config</PackagePath>
+      <Modified>2020-09-30T03:56:56.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\CIM40\Desktop\web+pun\testbuild\web+pun\Data\il2cpp_data\etc\mono\4.0\machine.config">
+      <PackagePath>Data\il2cpp_data\etc\mono\4.0\machine.config</PackagePath>
+      <Modified>2020-09-30T03:56:56.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\CIM40\Desktop\web+pun\testbuild\web+pun\Data\il2cpp_data\etc\mono\4.0\web.config">
+      <PackagePath>Data\il2cpp_data\etc\mono\4.0\web.config</PackagePath>
+      <Modified>2020-09-30T03:56:56.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\CIM40\Desktop\web+pun\testbuild\web+pun\Data\il2cpp_data\etc\mono\4.5\machine.config">
+      <PackagePath>Data\il2cpp_data\etc\mono\4.5\machine.config</PackagePath>
+      <Modified>2020-09-30T03:56:56.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\CIM40\Desktop\web+pun\testbuild\web+pun\Data\il2cpp_data\etc\mono\4.5\web.config">
+      <PackagePath>Data\il2cpp_data\etc\mono\4.5\web.config</PackagePath>
+      <Modified>2020-09-30T03:56:56.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\CIM40\Desktop\web+pun\testbuild\web+pun\Data\globalgamemanagers">
+      <PackagePath>Data\globalgamemanagers</PackagePath>
+      <Modified>2021-05-19T14:43:14.266</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\CIM40\Desktop\web+pun\testbuild\web+pun\Data\level0">
+      <PackagePath>Data\level0</PackagePath>
+      <Modified>2021-05-19T14:43:05.710</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\CIM40\Desktop\web+pun\testbuild\web+pun\Data\il2cpp_data\etc\mono\config">
+      <PackagePath>Data\il2cpp_data\etc\mono\config</PackagePath>
+      <Modified>2020-09-30T03:56:56.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\CIM40\Desktop\web+pun\testbuild\web+pun\Data\Resources\unity default resources">
+      <PackagePath>Data\Resources\unity default resources</PackagePath>
+      <Modified>2020-09-30T03:52:46.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\CIM40\Desktop\web+pun\testbuild\web+pun\Data\Resources\unity_builtin_extra">
+      <PackagePath>Data\Resources\unity_builtin_extra</PackagePath>
+      <Modified>2021-05-19T14:43:20.552</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\CIM40\Desktop\web+pun\testbuild\web+pun\Data\globalgamemanagers.assets">
+      <PackagePath>Data\globalgamemanagers.assets</PackagePath>
+      <Modified>2021-05-19T14:43:14.489</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\CIM40\Desktop\web+pun\testbuild\web+pun\Data\resources.assets">
+      <PackagePath>Data\resources.assets</PackagePath>
+      <Modified>2021-05-19T14:43:18.249</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\CIM40\Desktop\web+pun\testbuild\web+pun\Data\sharedassets0.assets">
+      <PackagePath>Data\sharedassets0.assets</PackagePath>
+      <Modified>2021-05-19T14:43:18.913</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\CIM40\Desktop\web+pun\testbuild\web+pun\Data\level0.resS">
+      <PackagePath>Data\level0.resS</PackagePath>
+      <Modified>2021-05-19T14:43:05.698</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\CIM40\Desktop\web+pun\testbuild\web+pun\Data\resources.assets.resS">
+      <PackagePath>Data\resources.assets.resS</PackagePath>
+      <Modified>2021-05-19T14:43:18.229</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\CIM40\Desktop\web+pun\testbuild\web+pun\Data\sharedassets0.assets.resS">
+      <PackagePath>Data\sharedassets0.assets.resS</PackagePath>
+      <Modified>2021-05-19T14:43:18.912</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\CIM40\Desktop\web+pun\testbuild\web+pun\Data\nativePlugins.txt">
+      <PackagePath>Data\nativePlugins.txt</PackagePath>
+      <Modified>2021-05-19T14:45:03.221</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\CIM40\Desktop\web+pun\testbuild\web+pun\Data\resources.resource">
+      <PackagePath>Data\resources.resource</PackagePath>
+      <Modified>2021-05-19T14:43:18.160</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\CIM40\Desktop\web+pun\testbuild\web+pun\Data\GI\level0\aa\aaf061ff2cae8c1e5494f242c0c197a2.caw">
+      <PackagePath>Data\GI\level0\aa\aaf061ff2cae8c1e5494f242c0c197a2.caw</PackagePath>
+      <Modified>2021-05-19T14:43:05.171</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\CIM40\Desktop\web+pun\testbuild\web+pun\Data\GI\level0\aa\aaf061ff2cae8c1e5494f242c0c197a2.ecm">
+      <PackagePath>Data\GI\level0\aa\aaf061ff2cae8c1e5494f242c0c197a2.ecm</PackagePath>
+      <Modified>2021-05-19T14:43:05.176</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\CIM40\Desktop\web+pun\testbuild\web+pun\Data\GI\level0\aa\aaf061ff2cae8c1e5494f242c0c197a2.iws.sse">
+      <PackagePath>Data\GI\level0\aa\aaf061ff2cae8c1e5494f242c0c197a2.iws.sse</PackagePath>
+      <Modified>2021-05-19T14:43:05.179</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\CIM40\Desktop\web+pun\testbuild\web+pun\Data\GI\level0\aa\aaf061ff2cae8c1e5494f242c0c197a2.rsc.sse">
+      <PackagePath>Data\GI\level0\aa\aaf061ff2cae8c1e5494f242c0c197a2.rsc.sse</PackagePath>
+      <Modified>2021-05-19T14:43:05.187</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\CIM40\Desktop\web+pun\testbuild\web+pun\Data\GI\level0\aa\aaf061ff2cae8c1e5494f242c0c197a2.rgb">
+      <PackagePath>Data\GI\level0\aa\aaf061ff2cae8c1e5494f242c0c197a2.rgb</PackagePath>
+      <Modified>2021-05-19T14:43:05.184</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\CIM40\Desktop\web+pun\testbuild\web+pun\Data\GI\level0\aa\aaf061ff2cae8c1e5494f242c0c197a2.vis">
+      <PackagePath>Data\GI\level0\aa\aaf061ff2cae8c1e5494f242c0c197a2.vis</PackagePath>
+      <Modified>2021-05-19T14:43:05.194</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\CIM40\Desktop\web+pun\testbuild\web+pun\Data\il2cpp_data\etc\mono\browscap.ini">
+      <PackagePath>Data\il2cpp_data\etc\mono\browscap.ini</PackagePath>
+      <Modified>2020-09-30T03:56:56.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\CIM40\Desktop\web+pun\testbuild\web+pun\Data\il2cpp_data\etc\mono\2.0\DefaultWsdlHelpGenerator.aspx">
+      <PackagePath>Data\il2cpp_data\etc\mono\2.0\DefaultWsdlHelpGenerator.aspx</PackagePath>
+      <Modified>2020-09-30T03:56:56.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\CIM40\Desktop\web+pun\testbuild\web+pun\Data\il2cpp_data\etc\mono\4.0\DefaultWsdlHelpGenerator.aspx">
+      <PackagePath>Data\il2cpp_data\etc\mono\4.0\DefaultWsdlHelpGenerator.aspx</PackagePath>
+      <Modified>2020-09-30T03:56:56.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\CIM40\Desktop\web+pun\testbuild\web+pun\Data\il2cpp_data\etc\mono\4.5\DefaultWsdlHelpGenerator.aspx">
+      <PackagePath>Data\il2cpp_data\etc\mono\4.5\DefaultWsdlHelpGenerator.aspx</PackagePath>
+      <Modified>2020-09-30T03:56:56.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\CIM40\Desktop\web+pun\testbuild\web+pun\Data\il2cpp_data\etc\mono\2.0\settings.map">
+      <PackagePath>Data\il2cpp_data\etc\mono\2.0\settings.map</PackagePath>
+      <Modified>2020-09-30T03:56:56.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\CIM40\Desktop\web+pun\testbuild\web+pun\Data\il2cpp_data\etc\mono\4.0\settings.map">
+      <PackagePath>Data\il2cpp_data\etc\mono\4.0\settings.map</PackagePath>
+      <Modified>2020-09-30T03:56:56.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\CIM40\Desktop\web+pun\testbuild\web+pun\Data\il2cpp_data\etc\mono\4.5\settings.map">
+      <PackagePath>Data\il2cpp_data\etc\mono\4.5\settings.map</PackagePath>
+      <Modified>2020-09-30T03:56:56.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\CIM40\Desktop\web+pun\testbuild\web+pun\Data\il2cpp_data\etc\mono\2.0\Browsers\Compat.browser">
+      <PackagePath>Data\il2cpp_data\etc\mono\2.0\Browsers\Compat.browser</PackagePath>
+      <Modified>2020-09-30T03:56:56.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\CIM40\Desktop\web+pun\testbuild\web+pun\Data\il2cpp_data\etc\mono\4.0\Browsers\Compat.browser">
+      <PackagePath>Data\il2cpp_data\etc\mono\4.0\Browsers\Compat.browser</PackagePath>
+      <Modified>2020-09-30T03:56:56.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\CIM40\Desktop\web+pun\testbuild\web+pun\Data\il2cpp_data\etc\mono\4.5\Browsers\Compat.browser">
+      <PackagePath>Data\il2cpp_data\etc\mono\4.5\Browsers\Compat.browser</PackagePath>
+      <Modified>2020-09-30T03:56:56.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\CIM40\Desktop\web+pun\testbuild\web+pun\Data\il2cpp_data\Metadata\global-metadata.dat">
+      <PackagePath>Data\il2cpp_data\Metadata\global-metadata.dat</PackagePath>
+      <Modified>2021-05-19T14:44:58.435</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\CIM40\Desktop\web+pun\testbuild\web+pun\Data\il2cpp_data\Resources\I18N.CJK.dll-resources.dat">
+      <PackagePath>Data\il2cpp_data\Resources\I18N.CJK.dll-resources.dat</PackagePath>
+      <Modified>2021-05-19T14:43:57.544</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\CIM40\Desktop\web+pun\testbuild\web+pun\Data\il2cpp_data\Resources\mscorlib.dll-resources.dat">
+      <PackagePath>Data\il2cpp_data\Resources\mscorlib.dll-resources.dat</PackagePath>
+      <Modified>2021-05-19T14:43:57.540</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\CIM40\Desktop\web+pun\testbuild\web+pun\MicStreamSelector.dll">
+      <PackagePath>MicStreamSelector.dll</PackagePath>
+      <Modified>2021-05-18T09:11:44.411</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\CIM40\Desktop\web+pun\testbuild\web+pun\GpuStats.dll">
+      <PackagePath>GpuStats.dll</PackagePath>
+      <Modified>2021-03-22T15:58:22.847</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\CIM40\Desktop\web+pun\testbuild\web+pun\AudioPluginMicrosoftSpatializer.dll">
+      <PackagePath>AudioPluginMicrosoftSpatializer.dll</PackagePath>
+      <Modified>2021-05-19T08:41:48.088</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\CIM40\Desktop\web+pun\testbuild\web+pun\AudioPluginMsHRTF.dll">
+      <PackagePath>AudioPluginMsHRTF.dll</PackagePath>
+      <Modified>2020-06-02T13:37:15.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\CIM40\Desktop\web+pun\testbuild\web+pun\PlaneFinding.dll">
+      <PackagePath>PlaneFinding.dll</PackagePath>
+      <Modified>2021-03-22T13:51:49.654</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\CIM40\Desktop\web+pun\testbuild\build\bin\ARM64\Master\GameAssembly.dll">
+      <PackagePath>GameAssembly.dll</PackagePath>
+      <Modified>2021-05-19T14:48:54.162</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\CIM40\Desktop\web+pun\testbuild\build\bin\ARM64\Master\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2021-05-19T14:49:00.857</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00</Name>
+      <Version>14.0.29231.0</Version>
+      <Architecture>ARM</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00, MinVersion = 14.0.29231.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Retail\ARM\Microsoft.VCLibs.ARM.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00</Name>
+      <Version>14.0.29231.0</Version>
+      <Architecture>ARM64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00, MinVersion = 14.0.29231.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Retail\ARM64\Microsoft.VCLibs.ARM64.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00</Name>
+      <Version>14.0.29231.0</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00, MinVersion = 14.0.29231.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Retail\x64\Microsoft.VCLibs.x64.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00</Name>
+      <Version>14.0.29231.0</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00, MinVersion = 14.0.29231.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Retail\x86\Microsoft.VCLibs.x86.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+  </ItemGroup>
+</Project>
